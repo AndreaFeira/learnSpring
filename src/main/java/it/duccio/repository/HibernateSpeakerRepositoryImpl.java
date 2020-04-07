@@ -8,12 +8,12 @@ import java.util.List;
 
 public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
 
-    @Override
-    public List<Speaker> findAll(){
-        Speaker speaker = new Speaker();
-        speaker.setFirstName("Duccio");
-        speaker.setLastName("Oiccud");
+  @Override
+  public List<Speaker> findAll() {
+    Speaker speaker = new Speaker();
+    speaker.setFirstName("Duccio");
+    speaker.setLastName("Oiccud");
 
-        return asList(speaker);
-    }
+    return asList(speaker);
+  }
 }
