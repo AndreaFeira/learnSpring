@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bc3e177-172b-4083-9e0c-a04bb09a0174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/duccio/model/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/duccio/model/Speaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/duccio/repository/HibernateSpeakerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/duccio/repository/HibernateSpeakerRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/duccio/repository/SpeakerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/duccio/repository/SpeakerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/it/duccio/service/SpeakerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/duccio/service/SpeakerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/it/duccio/service/SpeakerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/duccio/service/SpeakerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,22 +101,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1586220417213" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1586131764867">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1586224672553">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586131764867" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1586131764866">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586224672553" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1586224672553">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586131764866" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1586131764866">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586224672553" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1586224672552">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586131764866" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1586131764867">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586224672552" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1586224672553">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586131764867" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586224672553" />
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1586220433532">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

@@ -14,15 +14,15 @@ public class AppConfig {
   @Bean(name = "speakerService") // Get a spring bean instance named speakerService
   @Scope(value = BeanDefinition.SCOPE_SINGLETON) // A single instance for application context
   public SpeakerService getSpeakerService() {
-        /*
-        Why we call getSpeakerRepository instead of instantiate a new HibernateSpeakerRepositoryImpl?
-        Because getSpeakerRepository is a bean in the Spring context and it is SINGLETON
-        If we instantiate a new HibernateSpeakerRepositoryImpl, each time this method is called we'll get a new instance */
-    return new SpeakerServiceImpl(getSpeakerRepository()); // <- satisfy the dependency using a bean
+    System.out.println("Creating bean speakerService");
+    SpeakerServiceImpl speakerService = new SpeakerServiceImpl();
+
+    return speakerService;
   }
 
   @Bean(name = "speakerRepository") // Get a spring bean instance named speakerRepository
   public SpeakerRepository getSpeakerRepository() {
+    System.out.println("Creating bean speakerRepository");
     return new HibernateSpeakerRepositoryImpl();
   }
 }
