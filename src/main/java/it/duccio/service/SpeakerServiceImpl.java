@@ -13,14 +13,8 @@ import org.springframework.stereotype.Service;
 @Scope(BeanDefinition.SCOPE_SINGLETON)
 public class SpeakerServiceImpl implements SpeakerService {
 
-  private SpeakerRepository speakerRepository;
-
   @Autowired
-  // speakerRepository is injected from the application context.
-  public void setSpeakerRepository(SpeakerRepository speakerRepository) {
-    System.out.println("Autowire setter in SpeakerServiceImpl with SpeakerRepository");
-    this.speakerRepository = speakerRepository;
-  }
+  private SpeakerRepository speakerRepository;
 
   @Override
   public List<Speaker> findAll() {
