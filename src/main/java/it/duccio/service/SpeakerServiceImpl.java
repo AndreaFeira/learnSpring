@@ -11,18 +11,22 @@ public class SpeakerServiceImpl implements SpeakerService {
   private SpeakerRepository speakerRepository;
 
   public SpeakerServiceImpl() {
-      System.out.println("SpeakerServiceImpl no args constructor");
+    System.out.println("SpeakerServiceImpl no args constructor");
   }
 
   // This is a constructor dependency injection
   public SpeakerServiceImpl(SpeakerRepository repository) {
+    System.out.println("Costructor with dependency");
+    
     this.speakerRepository = repository;
   }
 
-  @Autowired // SpeakerRepository dependency is satisfied by the bean configurated in AppConfig. It is injected from the application context.
-  public void setSpeakerRepository(SpeakerRepository speakerRepository){
-      System.out.println("Autowire setter in SpeakerServiceImpl with SpeakerRepository");
-      this.speakerRepository = speakerRepository;
+  @Autowired
+  // SpeakerRepository dependency is satisfied by the bean configurated in AppConfig.
+  // It is injected from the application context.
+  public void setSpeakerRepository(SpeakerRepository speakerRepository) {
+    System.out.println("Autowire setter in SpeakerServiceImpl with SpeakerRepository");
+    this.speakerRepository = speakerRepository;
   }
 
   @Override

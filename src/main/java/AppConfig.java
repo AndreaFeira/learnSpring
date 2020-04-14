@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Scope;
 @Configuration // replace applicationContext.xml
 public class AppConfig {
 
-
   @Bean(name = "speakerService") // Get a spring bean instance named speakerService
   @Scope(value = BeanDefinition.SCOPE_SINGLETON) // A single instance for application context
   public SpeakerService getSpeakerService() {

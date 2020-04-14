@@ -15,7 +15,7 @@ public class App {
         Another argument treated is the Dependency injection using the constructor
          */
 
-    System.out.println("Get application context throw the @Configuration annotation used in the AppConfig class");
+    System.out.println("Get application context through the @Configuration annotation used in the AppConfig class");
     ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
     System.out.println("Getting speakerService bean from the Spring application context with name");
