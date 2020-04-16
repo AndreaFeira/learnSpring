@@ -2,9 +2,7 @@ package it.duccio.service;
 
 import it.duccio.model.Speaker;
 import it.duccio.repository.SpeakerRepository;
-
 import java.util.List;
-import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.Scope;
@@ -16,11 +14,6 @@ public class SpeakerServiceImpl implements SpeakerService {
 
   @Autowired
   private SpeakerRepository speakerRepository;
-
-  @PostConstruct
-  private void initializeBean(){
-    System.out.println("Init the bean! This method is called after the constructor");
-  }
 
   @Override
   public List<Speaker> findAll() {

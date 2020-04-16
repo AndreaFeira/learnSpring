@@ -18,7 +18,7 @@ public class App {
     System.out.println("Get application context through the @Configuration annotation used in the AppConfig class");
     ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-    System.out.println("Getting speakerService bean from the Spring application context with name");
+    System.out.println("Getting speakerService bean from the Spring application context by name");
     SpeakerService service = context.getBean("speakerService", SpeakerService.class);
 
 
